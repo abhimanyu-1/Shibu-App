@@ -1,0 +1,38 @@
+# General
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+
+# Python / FastAPI (Backend)
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+*.egg-info/
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Environment Variables
+.env
+Server/.env
+
+# Node.js / React (Frontend)
+node_modules/
+dist/
+build/
+.output/
+package-lock.json # Optional: usually committed, but some prefer not to if using yarn/pnpm exclusively. I will NOT ignore it as it is standard to commit it.
+# Actually standards say commit lock files. Removing it from ignore list.
+
+# Generated Media
+*.mp3
+*.wav
+
+# Specific to this project
+Server/slang_knowledge_base.txt # Only if this is considered user data that changes locally, but I will comment it out as it seems to be part of the repo source.
+# Server/slang_knowledge_base.txt

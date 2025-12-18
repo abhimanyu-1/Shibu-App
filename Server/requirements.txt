@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+python-dotenv
+langchain
+langchain-groq
+langchain-community
+pydantic
+edge-tts
+faiss-cpu
+sentence-transformers
+langchain-huggingface
+elevenlabs
